@@ -27,7 +27,7 @@ Programm test CODE:
 
 output:
 
-``****Lesson 35, SQL
+Lesson 35, SQL
 Homework
 
 MANAGERS ---------------------
@@ -83,4 +83,4 @@ Money by managers ------------------------
 2. Jessie = 65$
 3. Woody = 46$
 4. Bill = 9000$
-5. Trump = 99999$****``
+5. Trump = 99999$
