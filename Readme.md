@@ -27,7 +27,8 @@ Programm test CODE:
             homework35.printMoneyByManagers();
         }
 
-output:
+
+OUTPUT:
 
 Lesson 35, SQL
 Homework
