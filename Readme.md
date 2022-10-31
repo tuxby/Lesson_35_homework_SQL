@@ -3,6 +3,8 @@ Lesson 35 homework ( SQL topic )
 System.out.println("Lesson 35, SQL");
 System.out.println("Homework");
 
+![img.png](img.png)
+
 Programm test CODE:
 
         
