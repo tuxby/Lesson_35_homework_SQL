@@ -1,6 +1,6 @@
 Lesson 35 homework ( SQL topic )
 
-![img_1.png](img_1.png)
+![img_1.png](tablesScreen.png)
 
 Programm test CODE:
 
