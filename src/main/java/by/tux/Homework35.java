@@ -10,8 +10,8 @@ public class Homework35 {
     private Connection connection;
     private Statement statement;
 
-    public Homework35(String url, String username, String passwords)  {
-        this.url = url;
+    public Homework35(String database, String username, String passwords)  {
+        this.url = "jdbc:postgresql://localhost:5432/" + database;
         this.username = username;
         this.passwords = passwords;
 
@@ -29,8 +29,6 @@ public class Homework35 {
             System.out.println("init() ERROR!");
             throw new RuntimeException(e);
         }
-
-
     }
     public void recreateTables(){
         String sql;
@@ -53,7 +51,7 @@ public class Homework35 {
         executeUpdate(sql);
     }
 
-    public void fillTables(){
+    public void fillTablesByExample(){
         addManager("Duck");
         addManager("Jessie");
         addManager("Woody");
@@ -66,10 +64,6 @@ public class Homework35 {
         addUser("Hercules",54,2);
         addUser("Goofy",34,3);
         addUser("Ariel",12,3);
-    }
-
-    public void close() throws SQLException {
-        connection.close();
     }
 
     private int executeUpdate(String query)  {

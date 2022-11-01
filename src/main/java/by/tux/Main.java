@@ -7,7 +7,7 @@ public class Main {
 
         Homework35 homework35 =new Homework35();
         homework35.recreateTables();
-        homework35.fillTables();
+        homework35.fillTablesByExample();
         homework35.print();
         homework35.printMoneyByManagers();
         System.out.println("Add Carolina and Monica users and print DATA");
